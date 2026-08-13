@@ -7,6 +7,8 @@ members = ["cargo:."]
 cargo-dist-version = "0.32.0"
 # CI backends to support
 ci = "github"
+# Build every installer on pull requests without publishing a release.
+pr-run-mode = "upload"
 # The installers to generate for each app
 installers = ["shell", "powershell", "msi"]
 # Target platforms to build apps for (Rust target-triple syntax)
