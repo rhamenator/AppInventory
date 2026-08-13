@@ -2,3 +2,17 @@
 name = "app-inventory"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "UTF-8 and UTF-16 application inventory parser with CSV export"
+repository = "https://github.com/rhamenator/AppInventory"
+
+[package.metadata.wix]
+upgrade-guid = "E804D328-9DC2-49FC-9A26-545AA3E523D1"
+path-guid = "90B07D14-48B2-4345-83DC-6FCD1AC0B005"
+license = false
+eula = false
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
