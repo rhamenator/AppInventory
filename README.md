@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="AppInventory logo" width="220">
+</p>
+
 # AppInventory
 
 A fast, tested successor to the unversioned `program-list2csv` script. It reads
